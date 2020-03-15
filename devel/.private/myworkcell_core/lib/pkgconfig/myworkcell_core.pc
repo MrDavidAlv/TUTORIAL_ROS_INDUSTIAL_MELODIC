@@ -1,0 +1,8 @@
+prefix=/home/myrobot/catkin_ws/devel/.private/myworkcell_core
+
+Name: myworkcell_core
+Description: Description of myworkcell_core
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp fake_ar_publisher

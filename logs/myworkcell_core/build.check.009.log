@@ -1,0 +1,30 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/myrobot/catkin_ws/devel/.private/myworkcell_core
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/myrobot/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/myrobot/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/myrobot/catkin_ws/build/myworkcell_core/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.20
+[36m--[0m BUILD_SHARED_LIBS is on
+[31m[1mCMake Error[0m at /home/myrobot/catkin_ws/src/myworkcell_core/CMakeLists.txt:132 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "vision_node".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/myrobot/catkin_ws/build/myworkcell_core/CMakeFiles/CMakeOutput.log".
+See also "/home/myrobot/catkin_ws/build/myworkcell_core/CMakeFiles/CMakeError.log".
+Makefile:574: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,6 @@
+devel_space: /home/myrobot/catkin_ws/devel
+install: false
+install_space: /home/myrobot/catkin_ws/install
+profile: default
+source_space: /home/myrobot/catkin_ws/src
+workspace: /home/myrobot/catkin_ws

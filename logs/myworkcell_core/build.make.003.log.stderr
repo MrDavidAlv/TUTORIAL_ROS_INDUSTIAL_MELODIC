@@ -1,0 +1,7 @@
+[01m[K/home/myrobot/catkin_ws/src/myworkcell_core/src/vision_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kfake_ar_publisher/ARMarker.h: No existe el archivo o el directorio
+ #include [01;31m[K<fake_ar_publisher/ARMarker.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

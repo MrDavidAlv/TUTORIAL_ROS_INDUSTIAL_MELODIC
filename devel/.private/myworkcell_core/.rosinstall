@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/myrobot/catkin_ws/devel/.private/myworkcell_core/setup.sh
